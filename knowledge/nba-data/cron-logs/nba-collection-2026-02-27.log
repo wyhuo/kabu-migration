@@ -1,0 +1,38 @@
+========================================
+🏀 NBA数据采集开始 - 2026-02-27 11:31:14
+使用 BallDontLie API
+========================================
+
+📊 [1/4] 采集昨日比赛数据...
+📡 请求: /games?dates[]=2026-02-26&per_page=100
+✅ 成功获取数据
+✅ 比赛数据已保存
+📊 [2/4] 采集球队排名...
+📡 请求: /teams
+✅ 成功获取数据
+📊 [3/4] 采集球员数据...
+📡 请求: /players?search=dylan%20harper
+✅ 成功获取数据
+📡 请求: /players?search=carter%20bryant
+✅ 成功获取数据
+📡 请求: /players?search=cooper%20flagg
+✅ 成功获取数据
+📊 [4/4] 生成汇总报告...
+✅ 汇总报告已生成
+
+📦 执行Git备份...
+[master 2d1d587] NBA数据采集 2026-02-27 - BallDontLie API
+ 7 files changed, 44 insertions(+)
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/01-games.json
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/01-games.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/06-standings.json
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/README.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/player-search-carter-bryant.json
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/player-search-cooper-flagg.json
+ create mode 100644 knowledge/nba-data/raw/2026-02-27/player-search-dylan-harper.json
+✅ Git备份完成
+
+========================================
+✅ NBA数据采集完成 - 11:31:23
+📁 数据保存位置: /workspace/projects/workspace/knowledge/nba-data/raw/2026-02-27/
+========================================
