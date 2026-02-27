@@ -1,0 +1,290 @@
+========================================
+🏀 NBA数据采集开始 - 2026-02-26 15:00:09
+========================================
+
+📊 开始采集昨日(2026-02-25)NBA数据...
+
+📊 [1/8] 采集昨日比赛数据...
+npm warn exec The following package was not found and will be installed: ts-node@10.9.2
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 比赛数据获取失败
+📊 [2/8] 采集得分榜...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 得分榜获取失败
+📊 [3/8] 采集篮板助攻榜...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 篮板助攻获取失败
+📊 [4/8] 采集伤病报告...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 伤病报告获取失败
+📊 [5/8] 采集新秀数据...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 新秀数据获取失败
+📊 [6/8] 采集球队排名...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 排名获取失败
+📊 [7/8] 采集交易动态...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 交易动态获取失败
+📊 [8/8] 采集重要新闻...
+node:internal/modules/cjs/loader:1424
+  throw err;
+  ^
+
+Error: Cannot find module './search.ts'
+Require stack:
+- /workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1421:15)
+    at require.resolve (node:internal/modules/helpers:163:19)
+    at requireResolveNonCached (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:549:16)
+    at getProjectSearchDir (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:519:40)
+    at phase3 (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:267:27)
+    at bootstrap (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:47:30)
+    at main (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:33:12)
+    at Object.<anonymous> (/root/.npm/_npx/1bf7c3c15bf47d04/node_modules/ts-node/dist/bin.js:579:5)
+    at Module._compile (node:internal/modules/cjs/loader:1761:14)
+    at Object..js (node:internal/modules/cjs/loader:1893:10) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/workspace/projects/workspace/skills/coze-web-search/scripts/imaginaryUncacheableRequireResolveScript'
+  ]
+}
+
+Node.js v24.13.0
+⚠️ 新闻获取失败
+
+📝 生成汇总报告...
+✅ 汇总报告已生成
+
+📦 执行Git备份...
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'root@vefaas-u1rxyyuj-x3cyp1vrj7-d6fu3d82jod020192n10-sandbox.(none)')
+⚠️ Git提交失败或无变更
+✅ Git备份完成
+
+========================================
+✅ NBA数据采集完成 - 15:00:21
+📁 数据保存位置: /workspace/projects/workspace/knowledge/nba-data/raw/2026-02-26/
+📄 文件数量: 8
+========================================
+
+========================================
+🏀 NBA数据采集开始 - 2026-02-26 15:02:44
+========================================
+
+📊 开始采集昨日(2026-02-25)NBA数据...
+
+📊 [1/8] 采集昨日比赛数据...
+✅ 比赛数据文件已创建
+📊 [2/8] 采集得分榜...
+✅ 得分榜文件已创建
+📊 [3/8] 采集篮板助攻榜...
+✅ 篮板助攻文件已创建
+📊 [4/8] 采集伤病报告...
+✅ 伤病报告文件已创建
+📊 [5/8] 采集新秀数据...
+✅ 新秀数据文件已创建
+📊 [6/8] 采集球队排名...
+✅ 排名文件已创建
+📊 [7/8] 采集交易动态...
+✅ 交易动态文件已创建
+📊 [8/8] 采集重要新闻...
+✅ 新闻文件已创建
+
+📝 生成汇总报告...
+✅ 汇总报告已生成
+
+📦 执行Git备份...
+⚙️ 已配置Git身份
+[master (root-commit) 3937d74] NBA数据采集 2026-02-26 - 占位符模式
+ 9 files changed, 171 insertions(+)
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/01-games.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/02-scoring.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/03-rebounds-assists.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/04-injuries.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/05-rookies.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/06-standings.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/07-trades.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/08-news.md
+ create mode 100644 knowledge/nba-data/raw/2026-02-26/README.md
+✅ Git备份完成
+
+========================================
+⚠️ NBA数据采集完成（占位符模式） - 15:02:44
+📁 数据保存位置: /workspace/projects/workspace/knowledge/nba-data/raw/2026-02-26/
+📄 文件数量: 9
+⚠️ 注意: 需要修复采集脚本以获取真实数据
+========================================
+
